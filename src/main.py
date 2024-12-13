@@ -9,7 +9,7 @@ def main():
     app = App()
     # Create an instance of PlayerStats
     player_stats = PlayerStats()
-    model_save_path = 'src/Models/pybaseball_nn_model_bestFinal.keras'
+    model_save_path = './Models/pybaseball_nn_model_bestFinal.keras'
     baseball_model = Model(model_save_path).get_model()
    
     action_btn = app.getActionBtn()
