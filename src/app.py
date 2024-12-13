@@ -262,7 +262,7 @@ class App(tk.Tk):
     def add_field_image(self, frame):
         margin_x = 20
         img_size = self.frame_height-(2*margin_x)
-        field_img = Image.open("./images/baseball_field.png")
+        field_img = Image.open("./src/images/baseball_field.png")
         field_img = self.resize_image(field_img, img_size, img_size)
         img_width, img_height = field_img.size
         field_img = ImageTk.PhotoImage(field_img)
