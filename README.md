@@ -34,18 +34,18 @@ To facilitate practical use of our system, we developed a user-friendly graphica
 
 ## Installation and Execution
 ### Install
-To install the required Python libraries, run the following command from the src directory:
+To install the required Python libraries, run the following command from the root directory:
 ```bash
-pip install -r .\requirements.txt
+pip install -r .\src\requirements.txt
 ```
 *You need to have pip installed to PATH*
 
 ### Running the Program
-To start the Tkinter program, run the following command from the src directory:
+To start the Tkinter program, run the following command from the root directory:
 ```bash
-python ./main
+python .\src\main.py
 #OR
-python3 ./main
+python3 .\src\main.py
 ```
 
 ## Using the program
