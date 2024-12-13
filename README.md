@@ -6,6 +6,7 @@ AI-Based MLB Outfielder Recommendation
 This project, FieldVision AI, introduces an innovative AI-powered system designed to optimize outfielder positioning in baseball. Inspired by the movie "Moneyball", we developed a tool that leverages machine learning and statistical analysis to recommend ideal outfielder placements based on real-time game situations and historical player data. By accurately predicting ball landing locations and dynamically adjusting defensive strategies, FieldVision AI aims to assist coaches and enhance on-field performance in the MLB.
 
 ## Description
+> For more details about the methods used and their results, please read the "report.pdf" in the docs dir.
 
 ### Data Parsing/API
 
