@@ -1,9 +1,9 @@
 import numpy as np
-from app import App
-from playerStats import PlayerStats
-from model import Model
+from backend.app import App
+from backend.playerStats import PlayerStats
+from backend.model import Model
 from PIL import Image, ImageDraw
-from util import blurProbabilities, computeOutfieldersPositions, applyStrategy, adaptToGameState
+from backend.util import blurProbabilities, computeOutfieldersPositions, applyStrategy, adaptToGameState
 
 def main():
     app = App()
